@@ -78,7 +78,7 @@ const addConducteur = async (req, res) => {
             subject: "Email Activated Account",
             html: `
             <h2>Please click on below link to activate your account</h2>
-            <p>http://localhost:3030/Conducteur/activateCompte/${token}</p>
+            <p>https://driving-license-api.herokuapp.com/Conducteur/activateCompte/${token}</p>
         `
         })
     
